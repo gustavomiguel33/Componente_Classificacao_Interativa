@@ -7,6 +7,7 @@
 body {
   color: white;
   background-color: #131519;
+  font-family: 'Overpass', sans-serif;
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
   .options {
     display: flex;
     justify-content: space-around;
-    margin: 15px 0;
+    margin: 20px 0;
 
     span {
       border: 1px solid #25313B;
@@ -46,6 +47,15 @@ body {
       align-items: center;
       justify-content: center;
       background-color: #25313B;
+      transition: 100ms;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:active {
+        background-color: #FC7515;
+      }
     }
   }
 
@@ -57,9 +67,17 @@ body {
     border-radius: 15px;
     text-transform: uppercase;
     color: white;
+    transition: 200ms;
+    font-size: 14px;
+    letter-spacing: 1px;
 
     &:hover {
       cursor: pointer;
+    }
+
+    &:active {
+      background-color: white;
+      color: #FC7515;
     }
   }
 }
