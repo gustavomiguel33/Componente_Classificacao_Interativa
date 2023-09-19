@@ -17,9 +17,15 @@ body {
   padding: 20px;
   border-radius: 25px;
 }
-.container img {
+.container .estrela {
+  background-image: url(../img/icon-star.svg);
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 15px;
   border: 1px solid #25313B;
-  padding: 10px;
   border-radius: 50%;
   background-color: #25313B;
 }
@@ -70,4 +76,8 @@ body {
 .container button:active {
   background-color: white;
   color: #FC7515;
+}
+
+.trocaImagem {
+  background-image: url("../img/illustration-thank-you.svg");
 }/*# sourceMappingURL=main.css.map */
