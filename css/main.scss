@@ -18,24 +18,21 @@ body {
   border-radius: 25px;
 
   .estrela {
+    display: flex;
+    width: 85px;
+    height: 80px;
     background-image: url(../img/icon-star.svg);
-    height: 30px;
-    width: 30px;
-    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 15px;
-    border: 1px solid #25313B;
-    border-radius: 50%;
-    background-color: #25313B;
+    background-size: cover;
+    margin: 10px auto 20px auto;
   }
 
   p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   img, h1, p {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .options {
@@ -53,14 +50,16 @@ body {
       align-items: center;
       justify-content: center;
       background-color: #25313B;
-      transition: 100ms;
+      transition: 200ms;
 
       &:hover {
         cursor: pointer;
+        background-color: #FC7515;
       }
 
       &:active {
-        background-color: #FC7515;
+        background-color: white;
+        color: #FC7515;
       }
     }
   }
@@ -88,7 +87,15 @@ body {
   }
 }
 
-.trocaImagem {
-  background-image: url('../img/illustration-thank-you.svg');
+.estiloTitulo1 {
+  color: #FC7515;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #25313B;
+  border: 1px solid #25313B;
+  width: max-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 25px;
 }
-
