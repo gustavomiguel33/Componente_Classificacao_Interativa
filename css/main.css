@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 350px;
+  width: 300px;
   margin: 150px auto;
   background-color: #212932;
   padding: 20px;
@@ -26,11 +26,18 @@ body {
   background-size: cover;
   margin: 10px auto 20px auto;
 }
-.container p {
-  font-size: 12px;
+.container .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.container img, .container h1, .container p {
-  margin-bottom: 15px;
+.container .text .titulo1 {
+  margin-bottom: 18px;
+}
+.container .text .paragrafo {
+  font-size: 14px;
+  text-align: center;
 }
 .container .options {
   display: flex;
@@ -89,4 +96,13 @@ body {
   margin: 0 auto;
   padding: 10px 20px;
   border-radius: 25px;
+}
+
+.paragrafo2_visivel {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 15px auto;
+  text-align: center;
+  line-height: 25px;
 }/*# sourceMappingURL=main.css.map */
