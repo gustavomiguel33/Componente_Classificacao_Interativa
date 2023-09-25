@@ -10,14 +10,21 @@ body {
   font-family: "Overpass", sans-serif;
 }
 
-.container {
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main .container {
   width: 300px;
   margin: 214px auto;
   background-color: #212932;
   padding: 20px;
   border-radius: 25px;
 }
-.container .estrela {
+.main .container .estrela {
   display: flex;
   width: 85px;
   height: 80px;
@@ -26,25 +33,25 @@ body {
   background-size: cover;
   margin: 10px auto 20px auto;
 }
-.container .text {
+.main .container .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.container .text .titulo1 {
+.main .container .text .titulo1 {
   margin-bottom: 18px;
 }
-.container .text .paragrafo {
+.main .container .text .paragrafo {
   font-size: 12px;
   text-align: center;
 }
-.container .options {
+.main .container .options {
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
 }
-.container .options span {
+.main .container .options span {
   border: 1px solid #25313B;
   padding: 10px;
   width: 40px;
@@ -56,15 +63,15 @@ body {
   background-color: #25313B;
   transition: 200ms;
 }
-.container .options span:hover {
+.main .container .options span:hover {
   cursor: pointer;
   background-color: #FC7515;
 }
-.container .options span:active {
+.main .container .options span:active {
   background-color: white;
   color: #FC7515;
 }
-.container button {
+.main .container button {
   background-color: #FC7515;
   width: 100%;
   border: none;
@@ -76,10 +83,10 @@ body {
   font-size: 14px;
   letter-spacing: 1px;
 }
-.container button:hover {
+.main .container button:hover {
   cursor: pointer;
 }
-.container button:active {
+.main .container button:active {
   background-color: white;
   color: #FC7515;
 }
